@@ -44,6 +44,13 @@ test('There is no I in Team',()=>{
     expect('team').not.toMatch(/I/);
 })
 
+// Arrays
+
+test('Admin should be in usernames',()=>{
+    const usernames = ['John','Peter','admin']
+    expect(usernames).toContain('admin')
+})
+
 
 
 
