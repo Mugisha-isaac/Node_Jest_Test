@@ -30,6 +30,12 @@ test('should be under 2000',()=>{
 })
 
 
+test('should be greater than 2000',()=>{
+    expect(3000).toBeGreaterThan(2000);
+})
+
+
+
 
 
 // checking for truth and falsy values
