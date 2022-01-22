@@ -13,9 +13,15 @@ test('returning null',()=>{
     expect(functions.isNULL()).toBeNull()
 })
 
+// toBeFalsy
 test('returning falsy',()=>{
-    expect(functions.checkValue(null)).toBeFalsy()
+    expect(functions.checkValue(undefined)).toBeFalsy()
 })
+
+test('user should be MUGISHA ISAAC object',()=>{
+    expect(functions.createUser()).toStrictEqual({first_name:"MUGISHA",last_name:"ISAAC"})
+})
+
 
 
 
