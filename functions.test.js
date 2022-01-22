@@ -13,6 +13,11 @@ test('returning null',()=>{
     expect(functions.isNULL()).toBeNull()
 })
 
+test('returning falsy',()=>{
+    expect(functions.checkValue(null)).toBeFalsy()
+})
+
+
 
 // checking for truth and falsy values
 
