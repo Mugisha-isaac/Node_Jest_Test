@@ -52,6 +52,16 @@ test('Admin should be in usernames',()=>{
 })
 
 
+// working with async data
+
+test('user fetched name should be Leanne Graham',()=>{
+    expect.assertions(1);
+    return functions.fetchUser().then(data =>{
+        expect(data.name).toBe('Leanne Graham');
+    })
+})
+
+
 
 
 
