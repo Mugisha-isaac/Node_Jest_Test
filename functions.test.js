@@ -23,6 +23,13 @@ test('user should be MUGISHA ISAAC object',()=>{
 })
 
 
+// less than and greater than
+
+test('should be under 2000',()=>{
+    expect(1000).toBeLessThan(2000);
+})
+
+
 
 
 // checking for truth and falsy values
