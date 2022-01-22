@@ -38,6 +38,13 @@ test('should be less than or equal to 2000',()=>{
     expect(2000).toBeLessThanOrEqual(2000);
 })
 
+// Regex
+
+test('There is no I in Team',()=>{
+    expect('team').not.toMatch(/I/);
+})
+
+
 
 
 
