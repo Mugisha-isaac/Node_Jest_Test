@@ -9,6 +9,10 @@ test('adding 2 to 2 to not  get 5',()=>{
     expect(functions.add(2,2)).not.toBe(5);
 })
 
+test('returning null',()=>{
+    expect(functions.isNULL()).toBeNull()
+})
+
 
 // checking for truth and falsy values
 
