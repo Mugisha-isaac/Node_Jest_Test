@@ -34,6 +34,11 @@ test('should be greater than 2000',()=>{
     expect(3000).toBeGreaterThan(2000);
 })
 
+test('should be less than or equal to 2000',()=>{
+    expect(2000).toBeLessThanOrEqual(2000);
+})
+
+
 
 
 
